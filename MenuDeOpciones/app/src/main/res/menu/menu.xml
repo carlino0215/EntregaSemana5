@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_save"
+        android:title="Guardar"
+        android:icon="@drawable/balon"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_nomina"
+        android:title="Nomina"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_foto"
+        android:title="Foto"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_video"
+        android:title="Video"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_estadistica"
+        android:title="Estadistica"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_salir"
+        android:title="Salir"
+        app:showAsAction="never"/>
+
+</menu>
